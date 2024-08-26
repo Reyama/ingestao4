@@ -1,0 +1,23 @@
+
+version: 2
+
+models:
+  - name: update_empregados
+    columns:
+      - name: segmento
+        tests:
+          - not_null
+      - name: cnpj
+        tests:
+          - not_null
+
+sources:
+  - name: public
+    description: "Source database"
+    tables:
+      - name: empregados
+        description: "This table contains employee data."
+      - name: bancos
+        description: "This table contains banks data"
+      - name: reclamacoes
+        description: "This table contains claims data"
