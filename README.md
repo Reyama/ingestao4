@@ -8,12 +8,12 @@ O objetivo da atividade é realizar a ingestão de dados de 3 pastas diferentes,
 
 # Estrutura
 
-`Raw.ipynb` - Jupyter notebook para padronização dos dados camada Raw
-`Trusted.ipynb` - Jupyter notebook para salvar dados (camada Trusted) no banco de dados postgreSQL
-`dbt/atividade4` - Pasta com o projeto dbt
-`Dados/Bancos` - Pasta com arquivo original de bancos
-`Dados/Empregados` - Pasta com arquivo original de Empregados
-`Dados/Reclamações` - Pasta com arquivo original de Reclamações
+`Raw.ipynb` - Jupyter notebook para padronização dos dados camada Raw \
+`Trusted.ipynb` - Jupyter notebook para salvar dados (camada Trusted) no banco de dados postgreSQL \
+`dbt/atividade4` - Pasta com o projeto dbt \
+`Dados/Bancos` - Pasta com arquivo original de bancos \
+`Dados/Empregados` - Pasta com arquivo original de Empregados \
+`Dados/Reclamações` - Pasta com arquivo original de Reclamações \
 
 # Observações
 
